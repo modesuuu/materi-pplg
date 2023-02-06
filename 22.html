@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Tokom Palu Gada</h1>
+
+    <script>
+        var list_siswa=[
+        {nama : "kulkas",alamat :"Elektronik",jumlah  :"10"},
+        {nama : "TV" ,alamat: "Elektronik",kuantitas :"2"},
+        {nama : "Laptop",alamat :"Elektronik",kuantitas :"3"}
+        
+    ]
+
+    document.write("</br>");
+    
+
+    list_siswa.forEach(list_siswa => {
+        document.write("Nama:" +list_siswa .nama + "<br/>")
+        document.write("Jenis:" +list_siswa .jenis + "<br/>")
+        document.write("Kuantitas:" +list_siswa .kuantitas + "<br/>")
+        document.write("<hr>");
+        })
+
+
+        //Pengulangan
+        for(i=0; i<5; i++){
+            document.write(i+"<br/>" )
+        };
+
+        document.write("</br>");
+        document.write("<hr>");
+
+        for(i=0; i<6; i++){
+            document.write("Caldwell <br/>")//kebawah
+        };
+
+    </script>
+</body>
+</html>

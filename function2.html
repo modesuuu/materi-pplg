@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body bgcolor="yellow">
+   <script>
+    function hitungLuasPersegi(sisi, sisi) {
+    return sisi * sisi;
+}
+
+function hitungKelilingLingkaran(jariJariLingkaran) {
+    return 2 * 3.14 * jariJariLingkaran;
+}
+
+
+
+                    //parameter
+function sapa_org(nama,alamat,kelas,jurusan){
+    document.write("Hello "+nama+"<br/>")
+    document.write("Alamat "+alamat+"<br/>")
+    document.write("Kelas "+kelas+"<br/>")
+    document.write("Jurusan "+jurusan+"<br/>")
+}
+sapa_org("Alexandra","LikeBumi","10","PLPG");
+document.write("<hr>")
+sapa_org("Caldwell","Bandoeng","10","GPLG")
+
+
+function luas_lingkaran(r){
+    document.write (pi=3,14);
+    document.write(pi * r ** 2);
+}
+luas_lingkaran(10);
+
+
+
+function rata_rata(){
+    var mtk=70;
+    var ipa=80;
+    var dlg=90;
+    return (mtk+ipa+dlg / 3)
+}
+if (rata_rata(70,80,90)>75){
+    document.write("lulus")
+};
+
+
+
+function cetak(text,jumlah){
+        for(i=0; i<jumlah; i++){
+        document.write(text+"<br/>")
+    };
+    }
+//cetak("Alexandra",5)
+
+
+function Pembagian(angka,angka2){
+    document.write(angka/angka2)
+}
+//Pembagian(10,5)
+
+
+var kemarau="tidak bawa payung"
+var hujan="bawa payung"
+function musim(a){
+     if (a == "hujan"){
+        document.write(hujan)
+     }else if(a=="tidak_hujan"){
+        document.write(kemarau)
+     }
+}
+musim("tidak_hujan")
+
+
+
+   </script>
+</body>
+</html>

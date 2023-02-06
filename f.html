@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body bgcolor="yellow">
+    <script>
+        var pembeli=["pardi","lap"]
+        var barang=[
+            {
+                nama:"palu",
+                harga:5000,
+                jumlah:1,
+            },{
+                nama:"gergaji",
+                harga:8000,
+                jumlah:1,
+            }
+        ]
+        
+        
+        barang.forEach(f => {
+            document.write("nama barang: "+f.nama+"<br/>");
+            document.write("harga: "+f.harga+"<br/>");
+            document.write("jumlah: "+f.jumlah+"<br/>")
+            document.write("<hr/>")
+        });
+    </script>
+</body>
+</html>

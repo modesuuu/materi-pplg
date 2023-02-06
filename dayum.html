@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function sapa(nama,nilai){
+            document.write(`haloo ${nama}`);
+            document.write(`nilai kamu ${nilai}`);
+        }
+        //sapa("mo ",88)
+
+        
+        function main(pilihan1,pilihan2){
+            if(pilihan1=="batu" && pilihan2=="gunting"){
+                document.write("anda menang"+"<br/>");
+            }else if(pilihan1=="batu" && pilihan2=="kertas"){
+                document.write("anda kalah"+"<br/>");
+            }else if(pilihan1=="gunting" && pilihan2=="kertas"){
+                document.write("anda menang"+"<br/>");
+            }else if(pilihan1=="gunting" && pilihan2=="gunting"){
+                document.write("anda seri")
+            }
+        }
+        main("batu","gunting")
+        main("batu","kertas")
+        main("gunting","kertas")
+        main("gunting","gunting")
+    </script>
+</body>
+</html>

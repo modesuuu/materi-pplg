@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body bgcolor="E9494B">
+    <script>
+        document.write("<h1>list siswa </h1>")
+        var list_siswa = [
+            {nama:"mochi", kelas: "10",},
+            {nama:"carti", kelas: "10",}
+    ]
+        var kkm = [75,80,90]
+        var nilai = [
+            {nilai_mtk:75,nilai_fisika:78,nilai_big:88},
+            {nilai_mtk:60,nilai_fisika:78,nilai_big:88}
+    ]
+        nilai.push(list_siswa)
+        
+        list_siswa.forEach(list_siswa => {
+        document.write("Nama:" +list_siswa .nama + "<br/>")
+        document.write("kelas:" +list_siswa .kelas + "<br/>")
+        if (nilai <kkm){
+            document.write("status: tidak lulus" + "<br/>")
+        }else{
+            document.write("status: lulus" + "<br/>")
+        }
+        document.write("<hr>");
+        })
+        
+    </script>
+</body>
+</html>

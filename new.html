@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var p={
+            jenis:'fox',
+            nama:'mochi',
+            warna:'orange,white',
+            jumlah_kaki:4,
+            mata:{
+                warna_mata:'yellow',
+                warna_pupil:'black',
+            },
+            saat_berburu:function (){
+                return "sangat cerdik saat mencari makanan"
+            },
+            bertahan_hidup:function (){
+                return "bisa beradaptasi dalam musim dingin"
+            }
+        }
+        document.write(`jenis: ${p.jenis}`+"<br/>");
+        document.write(`nama: ${p.nama}`+"<br/>");
+        document.write(`warna: ${p.warna}`+"<br/>");
+        document.write(`warna mata: ${p.mata.warna_mata}`+"<br/>");
+        document.write(`warna pupil: ${p.mata.warna_pupil}`+"<br/>");
+        document.write(`warna mata: ${p.saat_berburu()}`+"<br/>")
+
+
+        /*{
+            jenis:'sepatu',
+            brand:'adidas willsmith',
+            warna:{
+                dasar:'putih,hijau',
+                tali:'putih'
+            },
+            produk:'ori',
+            saat_dipakai:function (){
+                return "melindungi kaki"
+                return "sangat nyaman"
+            }
+
+        }]*/
+        
+        /*p.forEach(f => {
+            document.write(p.jenis)
+        });*/
+
+
+
+
+        //document.write(p.saat_dipakai())
+        //document.write(`ininamanya ${p...}`)
+    </script>
+</body>
+</html>
